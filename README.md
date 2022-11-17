@@ -1,4 +1,7 @@
-# Init stats
+# Web de Estadística para las Ciencias Sociales
+
+CETYS Universidad
+Escuela de Psicología
 
 
 ## 2022-1
