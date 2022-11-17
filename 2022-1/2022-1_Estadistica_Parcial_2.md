@@ -6,7 +6,7 @@
 - [+📊 2022-1: Estadística Parcial 3](https://paper.dropbox.com/doc/2022-1-Estadistica-Parcial-3-YAibzhpaI1uQEVjBZMr0R) 
 - [+📊 2022-1: Estadística - Ejercicio Integrador](https://paper.dropbox.com/doc/2022-1-Estadistica-Ejercicio-Integrador-uquzR8gvcsw7p1o7cAPXM) 
 ----------
-![](https://paper-attachments.dropbox.com/s_38A6D74CD12C335090F993860329E382E86909F11EBA2D360509005B6923504B_1611285561312_banner+parcial+2.jpg)
+![](../images/banner-parcial-2.jpeg)
 
 ## 📄 Criterios de evaluación del Parcial 1:
 - Portafolio de prácticas resueltas y corregidas de los capítulos 5 al 11 (Poldrack, 2019).
