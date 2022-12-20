@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Manuel Mejía">
+
+<title>Estadística para las Ciencias Sociales - 3&nbsp; Parcial 1</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Programa.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Parcial 1</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Estadística para las Ciencias Sociales</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Inicio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Programa.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Programa de la materia</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./parcial1.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Parcial 1</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Índice</h2>
+   
+  <ul>
+  <li><a href="#materiales-y-fechas" id="toc-materiales-y-fechas" class="nav-link active" data-scroll-target="#materiales-y-fechas"><span class="toc-section-number">3.1</span>  🗓️ Materiales y fechas</a></li>
+  <li><a href="#reflexión-ética" id="toc-reflexión-ética" class="nav-link" data-scroll-target="#reflexión-ética"><span class="toc-section-number">3.2</span>  💭 Reflexión ética</a></li>
+  <li><a href="#keycap-1-s01-24-28-ene---1-introducción" id="toc-keycap-1-s01-24-28-ene---1-introducción" class="nav-link" data-scroll-target="#keycap-1-s01-24-28-ene---1-introducción"><span class="toc-section-number">4</span>  <img src="https://paper.dropboxstatic.com/static/img/ace/emoji/0031-20e3.png?version=7.0.0" title="keycap: 1" class="img-fluid" alt="keycap: 1"> S01 (24-28 ene) - 1 Introducción</a>
+  <ul class="collapse">
+  <li><a href="#material-complementario" id="toc-material-complementario" class="nav-link" data-scroll-target="#material-complementario"><span class="toc-section-number">4.1</span>  Material complementario:</a></li>
+  </ul></li>
+  <li><a href="#keycap-2-s02-31-ene-04-feb---2-trabajar-con-datos" id="toc-keycap-2-s02-31-ene-04-feb---2-trabajar-con-datos" class="nav-link" data-scroll-target="#keycap-2-s02-31-ene-04-feb---2-trabajar-con-datos"><span class="toc-section-number">5</span>  <img src="https://paper.dropboxstatic.com/static/img/ace/emoji/0032-20e3.png?version=7.0.0" title="keycap: 2" class="img-fluid" alt="keycap: 2"> S02 (31 ene-04 feb) - 2 Trabajar con datos</a>
+  <ul class="collapse">
+  <li><a href="#material-complementario-1" id="toc-material-complementario-1" class="nav-link" data-scroll-target="#material-complementario-1"><span class="toc-section-number">5.1</span>  Material complementario:</a></li>
+  </ul></li>
+  <li><a href="#keycap-3-s03-07-11-feb---3-resumir-datos" id="toc-keycap-3-s03-07-11-feb---3-resumir-datos" class="nav-link" data-scroll-target="#keycap-3-s03-07-11-feb---3-resumir-datos"><span class="toc-section-number">6</span>  <img src="https://paper.dropboxstatic.com/static/img/ace/emoji/0033-20e3.png?version=7.0.0" title="keycap: 3" class="img-fluid" alt="keycap: 3"> S03 (07-11 feb) - 3 Resumir datos</a>
+  <ul class="collapse">
+  <li><a href="#material-complementario-2" id="toc-material-complementario-2" class="nav-link" data-scroll-target="#material-complementario-2"><span class="toc-section-number">6.1</span>  Material complementario:</a></li>
+  </ul></li>
+  <li><a href="#keycap-4-s04-14-18-feb---4-visualización-de-datos" id="toc-keycap-4-s04-14-18-feb---4-visualización-de-datos" class="nav-link" data-scroll-target="#keycap-4-s04-14-18-feb---4-visualización-de-datos"><span class="toc-section-number">7</span>  <img src="https://paper.dropboxstatic.com/static/img/ace/emoji/0034-20e3.png?version=7.0.0" title="keycap: 4" class="img-fluid" alt="keycap: 4"> S04 (14-18 feb) - 4 Visualización de datos</a>
+  <ul class="collapse">
+  <li><a href="#material-complementario-3" id="toc-material-complementario-3" class="nav-link" data-scroll-target="#material-complementario-3"><span class="toc-section-number">7.1</span>  Material complementario:</a></li>
+  </ul></li>
+  <li><a href="#keycap-5-s05-22-26-feb---revisión-de-correcciones-de-prácticas" id="toc-keycap-5-s05-22-26-feb---revisión-de-correcciones-de-prácticas" class="nav-link" data-scroll-target="#keycap-5-s05-22-26-feb---revisión-de-correcciones-de-prácticas"><span class="toc-section-number">8</span>  <img src="https://paper.dropboxstatic.com/static/img/ace/emoji/0035-20e3.png?version=7.0.0" title="keycap: 5" class="img-fluid" alt="keycap: 5"> S05 (22-26 feb) - <em>Revisión de correcciones de prácticas</em></a>
+  <ul class="collapse">
+  <li><a href="#material-complementario-4" id="toc-material-complementario-4" class="nav-link" data-scroll-target="#material-complementario-4"><span class="toc-section-number">8.1</span>  Material complementario:</a></li>
+  </ul></li>
+  <li><a href="#keycap-6-s06-28-feb-04-mar---cierre-del-parcial" id="toc-keycap-6-s06-28-feb-04-mar---cierre-del-parcial" class="nav-link" data-scroll-target="#keycap-6-s06-28-feb-04-mar---cierre-del-parcial"><span class="toc-section-number">9</span>  <img src="https://paper.dropboxstatic.com/static/img/ace/emoji/0036-20e3.png?version=7.0.0" title="keycap: 6" class="img-fluid" alt="keycap: 6"> S06 (28 feb-04 mar) - Cierre del parcial</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Parcial 1</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-contents">
+             <p>Manuel Mejía </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/banner-parcial1.jpeg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<section id="materiales-y-fechas" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="materiales-y-fechas"><span class="header-section-number">3.1</span> 🗓️ Materiales y fechas</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Semana</strong></th>
+<th><strong>Tema</strong></th>
+<th><strong>Antes de la clase:<br>
+Lectura, video y cuestionario</strong></th>
+<th><strong>Durante la clase:<br>
+Práctica, datos y videos de apoyo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1 (24-28 enero)</td>
+<td><strong>1 Introducción</strong></td>
+<td>📽️<strong>Videos</strong>: en BB | 🗒️ <a href="https://docs.google.com/document/d/1t0ml2QCcPLZYsfBky6v0TqRywsGE0wa6vkfH9olwZmc/edit?usp=sharing">Práctica</a> | | 📖 <strong>Lectura</strong>: <a href="https://www.dropbox.com/s/n8s9ysx2n3q4hj6/StatsThinking21_Introducci%C3%B3n.pdf?dl=0">PDF</a> &nbsp;| &nbsp;<a href="https://statsthinking21.github.io/statsthinking21-core-spanish-site/introduction.html">Web</a> | 🗃️ <a href="https://docs.google.com/spreadsheets/d/1lZQUcDrBvapKxwfMzU__VxKER8c3Vkey/edit?usp=sharing&amp;ouid=105290187120964834124&amp;rtpof=true&amp;sd=true">Datos</a> | | ❓ <strong>Cuestionario:</strong> en BB | 🎞️ <a href="https://youtu.be/ky9AksHb8VY">Video</a> |</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2 (31 ene-04 febrero)</td>
+<td><strong>2 Trabajar con datos</strong></td>
+<td><strong>📽️ Videos</strong>: en BB | 🗒️ <a href="https://docs.google.com/document/d/1yt831pJzD-VVP9m2d9vnME_-TTcdZXHWDpFk67jg-KI/edit?usp=sharing">Práctica</a> | | 📖 <strong>Lectura</strong>: <a href="https://www.dropbox.com/s/diggtjzznk20by5/StatsThinking21_Trabajar%20con%20Datos.pdf?dl=0">PDF</a> &nbsp;| &nbsp;<a href="https://statsthinking21.github.io/statsthinking21-core-spanish-site/working-with-data.html">Web</a> | 🎞️ <a href="https://youtu.be/Fv8TVXBkUb8">Video</a> | | ❓ <strong>Cuestionario:</strong> en BB |</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3 (07-11 febrero)</td>
+<td><strong>3 Resumir datos</strong></td>
+<td>📽️ <strong>Videos</strong>: en BB | 🗒️ <a href="https://docs.google.com/document/d/1OQpJ5Qq6hwHvrgIq54Hdf_ejYgW8isDsKzvKOtuaJ00/edit?usp=sharing">Práctica</a> | | 📖 <strong>Lectura</strong>: <a href="https://www.dropbox.com/s/7r0k1ta2ka9znkg/StatsThinking21_Resumir%20datos.pdf?dl=0">PDF</a> &nbsp;| &nbsp;<a href="https://statsthinking21.github.io/statsthinking21-core-spanish-site/summarizing-data.html">Web</a> | 🗃️ <a href="https://www.dropbox.com/sh/1ojvuq9hycdd7fm/AADzS7fBWsUzEjjTEgA-MGOQa?dl=0">Datos</a> | | <strong>❓ Cuestionario:</strong> en BB | 🎞️ <a href="https://youtube.com/playlist?list=PLpvx58GYIsqNjvXsm17wJ8e9Yq8IZkm9l">Videos de apoyo</a> |</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4 (14-18 febrero)</td>
+<td><strong>4 Visualización de datos</strong></td>
+<td>📽️ <strong>Videos</strong>: en BB | 🗒️ <a href="https://docs.google.com/document/d/1LEJO5Jfs-uCgnwAt4pDvPzQzbx60p-I68FWdHD10hiw/edit?usp=sharing">Práctica</a> | | 📖 <strong>Lectura</strong>: <a href="https://www.dropbox.com/s/dvbf9lbktotfgjz/StatsThinking21_Visualizaci%C3%B3n%20de%20Datos.pdf?dl=0">PDF</a> &nbsp;| &nbsp;<a href="https://statsthinking21.github.io/statsthinking21-core-spanish-site/data-visualization.html">Web</a> | 🗃️ <a href="https://www.dropbox.com/sh/1ojvuq9hycdd7fm/AADzS7fBWsUzEjjTEgA-MGOQa?dl=0">Datos</a> - <a href="https://www.dropbox.com/s/d035ycae5s2nvqq/Pr%C3%A1ctica%2004%20-%20Chartjunk.xlsx?dl=0">DatosXLS</a> | | ❓ <strong>Cuestionario:</strong> en BB | 🎞️ <a href="https://youtube.com/playlist?list=PLpvx58GYIsqPwwPVWD45YPkUfS4xEHnqK">Videos de apoyo</a> |</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5 (21-25 febrero)</td>
+<td><em>Revisión de correcciones de prácticas.</em></td>
+<td><br>
+</td>
+<td><br>
+</td>
+</tr>
+<tr class="even">
+<td><strong>28 febrero.</strong></td>
+<td><strong>Fecha límite para entregas.</strong></td>
+<td><br>
+</td>
+<td><br>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="reflexión-ética" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="reflexión-ética"><span class="header-section-number">3.2</span> 💭 Reflexión ética</h2>
+<p><strong>Lectura de casos:</strong> Ritchie, S. (2020). <strong>Chapter 5: Negligence</strong>. En S. Ritchie (2020), "Science Fictions: how fraud, bias, negligence, and hype undermine the search for truth". Metropolitan. <a href="https://www.dropbox.com/s/la4j5o95te751ho/Ritchie%2C%20S%20-%202020%20-%20Science%20Fictions%20-%205%20Negligence.pdf?dl=0"><strong>Descárgalo aquí.</strong></a></p>
+<p><br>
+</p>
+<hr>
+</section>
+<section id="keycap-1-s01-24-28-ene---1-introducción" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> <img src="https://paper.dropboxstatic.com/static/img/ace/emoji/0031-20e3.png?version=7.0.0" title="keycap: 1" class="img-fluid" alt="keycap: 1"> S01 (24-28 ene) - 1 Introducción</h1>
+<ol type="1">
+<li><p>En esta semana revisamos el encuadre de la materia, sobre cómo trabajaremos, y cuáles son los criterios de evaluación para aprobar el curso.</p></li>
+<li><p>Por lo que la lectura del <strong>Capítulo 1 (Introducción)</strong> se estará realizando durante la semana. Pero se espera que para la segunda semana ya hayas leído el Capítulo 2 (Trabajar con datos), previo a la clase.</p></li>
+<li><p>La Práctica para esta semana es más que nada un ejemplo, para que podamos verificar que tienes acceso a todo el material, y puedes usarlo para contestar lo solicitado. Así como verificar que puedes enviar tus archivos de la práctica resuelta.</p></li>
+<li><p>La principal pregunta para contestar en esta semana es: <strong>¿Por qué usar números en psicología?</strong></p></li>
+<li><p>Para este curso usaremos cuatro herramientas principales:</p>
+<ol type="1">
+<li><p>Estas páginas de Dropbox Paper.</p></li>
+<li><p>Blackboard Ultra.</p></li>
+<li><p>Google Drive, una carpeta compartida por estudiante.</p></li>
+<li><p>Software estadístico: JASP (o Jamovi).</p></li>
+</ol></li>
+<li><p>Terminando esta semana asegúrate que tienes acceso a todas las herramientas. Y que tu carpeta de Google Drive compartida con tu profesor tiene tu nombre y las subcarpetas de cada parcial.</p></li>
+</ol>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Clase 1:</strong></th>
+<th><strong>Clase 2:</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><ol type="1">
+<li><strong>Encuadre</strong>: Revisaremos el encuadre y verificaremos que tod@s pueden acceder a las herramientas (Revisa el Checklist y la lista de herramientas en <a href="https://paper.dropbox.com/doc/oH08bcHDrWfJDj2lLvFqm">+<img src="https://paper.dropboxstatic.com/static/img/ace/emoji/1f4ca.png?version=7.0.0" title="bar chart" class="img-fluid" alt="bar chart"> 2022-1: [Programa] Estadística para las Ciencias Sociales</a> ).</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>(10 mins)</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Nos comunicaremos en Slack!</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>(15 mins)</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Da click <a href="https://join.slack.com/t/estadsticapar-vlu8898/shared_invite/zt-112b9noyv-a4kNZzcsASkju_UT_r5J4Q"><strong>aquí</strong></a>para entrar al lugar de trabajo de esta materia.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Comparte algo en <a href="https://paper.dropbox.com/?q=%23varios">#varios</a>.</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li>Responde con una reacción, o un "thread" al mensaje de algúnx compañerx.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Contestarás esta encuesta: <a href="https://forms.gle/yk7gjHM2Ywb3cMZUA"><strong>Actitudes hacia la estadística</strong></a>.</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>(15 mins)</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li>Contestarás esta <a href="https://forms.gle/4V6YQgxH9fS8rt937"><strong>encuesta diagnóstica</strong></a><strong>.</strong></li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>(10 mins)</li>
+</ol>
+<!-- -->
+<ol start="5" type="1">
+<li>Daremos unos minutos para que vean el video del Encuadre</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>(40 mins).</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Instalar extensión de Chrome.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Presentación (7 mins).</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li>Cómo trabajar esta materia (9 mins).</li>
+</ol>
+<!-- -->
+<ol start="5" type="1">
+<li>Checklist para comenzar la materia (9 mins).</li>
+</ol>
+<!-- -->
+<ol start="6" type="1">
+<li>Criterios de evaluación (6 mins).</li>
+</ol></td>
+<td><ol type="1">
+<li>Revisaremos dudas del encuadre.</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>(5 mins)</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Verificaremos que han podido avanzar/terminar el <strong>Capítulo 1:</strong></li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>(25mins)</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Lectura del capítulo.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Vídeolección del capítulo.</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li><a href="https://docs.google.com/document/d/1KwTwORjUHrQSx3zDjUGKdJ484UKnUgoejf5gNsB1amY/edit?usp=sharing">Anota tus dudas en Drive</a>.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Contestar Cuestionario Capítulo 01.</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>(20 mins)</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li><strong>Resolver Práctica 01:</strong></li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>(50 mins)</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Armaremos grupos para resolver las prácticas. <a href="https://docs.google.com/document/d/1pTbzlk5lzdADY8hYylg1IWN0wbKfGrCecBmw3joqnf0/edit?usp=sharing">En este enlace</a>.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Cada integrante del equipo, individualmente haga una copia del archivo de la práctica a su carpeta de Drive (recuerda que esa carpeta la tendrás compartida con tu docente).</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li>Resolveremos la <strong>Práctica 1</strong>.</li>
+</ol>
+<p><br>
+</p>
+<p><br>
+</p>
+<ul>
+<li><strong>Raincheck:</strong> Scavenger Hunt! [<a href="https://docs.google.com/document/d/1ZCeyOLiA0Vo_mTiKnaM7QmIARp9OvMlS1H0Y0-L3EsM/edit?usp=sharing">Copia este archivo a tu equipo</a>]</li>
+</ul>
+<ol type="1">
+<li>(15 mins)</li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><ul>
+<li>Si no tienes Office, puedes solicitar una cuenta de estudiante en este enlace:</li>
+</ul>
+<!-- -->
+<ul>
+<li><a href="http://registro.cetysuniversidad.edu.mx/" class="uri">http://registro.cetysuniversidad.edu.mx/</a></li>
+</ul>
+<!-- -->
+<ul>
+<li>Los datos para crear la cuenta son los mismos del acceso a tu Blackboard y/o Portal Mi Campus.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Una vez que creas la cuenta, te vas a portal.office.com e inicias sesión, ahí podrás descargar Office 365 e instalarlo en tu computadora.</li>
+</ul>
+<p><br>
+</p></td>
+<td><p><strong>Preguntas</strong>:</p>
+<ol type="1">
+<li><br>
+</li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+<section id="material-complementario" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="material-complementario"><span class="header-section-number">4.1</span> Material complementario:</h2>
+<ul>
+<li><p><strong>¿Qué es la estadística?</strong> (En 13 minutos revisa más aplicaciones de la estadística, de la mano de los amazing "Crash Course"!): <a href="https://www.youtube.com/watch?v=sxQaBpKfDRk&amp;feature=emb_logo&amp;ab_channel=CrashCourse"><strong>Link de Youtube</strong></a><strong>.</strong></p></li>
+<li><p><strong>"Todo lo que debes saber de estadística descriptiva"</strong> (En 9 minutos repasa algunos de los conceptos de las primeras dos semanas): <strong><a href="https://www.youtube.com/watch?v=W1_eCwuYkAI&amp;feature=emb_logo&amp;ab_channel=PsicoFacil">Link de Youtube.</a></strong></p></li>
+<li><p><strong>Conceptos básicos de estadística</strong> (En 10 minutos revisa explicaciones más amplicas de: población, muestra, individuo y dato): <a href="https://www.youtube.com/watch?v=Xq3thcQqwbc&amp;feature=emb_logo&amp;ab_channel=Matem%C3%A1ticasprofeAlex"><strong>Link de Youtube</strong></a><strong>.</strong></p></li>
+</ul>
+<p><br>
+</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<hr>
+</section>
+</section>
+<section id="keycap-2-s02-31-ene-04-feb---2-trabajar-con-datos" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> <img src="https://paper.dropboxstatic.com/static/img/ace/emoji/0032-20e3.png?version=7.0.0" title="keycap: 2" class="img-fluid" alt="keycap: 2"> S02 (31 ene-04 feb) - 2 Trabajar con datos</h1>
+<ol type="1">
+<li><p>En esta semana ya se espera que hayas leído el <strong>Capítulo 2 (Trabajar con datos)</strong> antes de llegar a la clase. Además de que hayas contestado el Cuestionario de este capítulo también antes de llegar a clase.</p></li>
+<li><p>Este capítulo tiene un par de temas que conviene que leas más de una vez si no los has escuchado antes. Estos son los <strong>conceptos principales</strong> para esta semana:</p>
+<ol type="1">
+<li><p>Niveles de medición: nominal, ordinal, intervalos, razón; cualitativa, cuantitativa.</p></li>
+<li><p>Características de una buena medición: confiabilidad y validez.</p></li>
+</ol></li>
+<li><p>La Práctica de esta semana se enfocará en ejercitar un poco la distinción de esos conceptos.</p></li>
+</ol>
+<p><br>
+</p>
+<table class="table">
+<colgroup>
+<col style="width: 55%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Clase 1:</strong></th>
+<th><strong>Clase 2:</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><ol type="1">
+<li>Revisar status de <strong>Práctica 01</strong>.</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>Revisar respuestas.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Pregunta conceptual de Tema 2.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Comenzar <strong>Práctica 02</strong>.</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>Equipos.</li>
+</ol></td>
+<td><ol type="1">
+<li>Continuación y revisión <strong>Práctica 02.</strong></li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Verificar que tengan instalado Excel, JASP/jamovi.</li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><p><strong>Preguntas tema 1:</strong></p>
+<ol type="1">
+<li>Sobre la <em>incertidumbre</em> y el <em>muestreo</em>.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Término de <em>estadística</em> vs <em>pensamiento estadístico</em>.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li><em>Causalidad.</em></li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li><em>Agregación</em> x2 (no es "agregar más datos").</li>
+</ol>
+<!-- -->
+<ol start="5" type="1">
+<li>Opciones de respuesta en <em>muestreo</em>. x2</li>
+</ol>
+<p><br>
+</p>
+<p><strong>Preguntas tema 2:</strong></p>
+<ol type="1">
+<li>Identidad, Magnitud, Intervalos Iguales y Cero absoluto. x6 x13</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Confiabilidad y validez.</li>
+</ol></td>
+<td><br>
+</td>
+</tr>
+</tbody>
+</table>
+<section id="material-complementario-1" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="material-complementario-1"><span class="header-section-number">5.1</span> Material complementario:</h2>
+<ul>
+<li><p>Video de <em>AcademiaInternet</em> explicando las escalas o niveles de medición (14 mins): <a href="https://www.youtube.com/watch?v=JgJSkqxkbfc&amp;ab_channel=AcademiaInternet"><strong>YouTube</strong></a>.</p></li>
+<li><p>Video de <em>Didactikós</em> con más ejemplos de escalas de medición (4 mins): <a href="https://www.youtube.com/watch?v=X_jcxBLGmHE&amp;ab_channel=Didactik%C3%B3s"><strong>YouTube</strong></a>.</p></li>
+</ul>
+<p><br>
+</p>
+<p><br>
+</p>
+<hr>
+</section>
+</section>
+<section id="keycap-3-s03-07-11-feb---3-resumir-datos" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> <img src="https://paper.dropboxstatic.com/static/img/ace/emoji/0033-20e3.png?version=7.0.0" title="keycap: 3" class="img-fluid" alt="keycap: 3"> S03 (07-11 feb) - 3 Resumir datos</h1>
+<ol type="1">
+<li><p>En esta semana se espera que llegues a la clase habiendo leído antes el <strong>Capítulo 3 (Resumir datos),</strong> y haber contestado el Cuestionario del capítulo.</p></li>
+<li><p>El objetivo principal en esta semana es que comiences a <strong>trabajar armando tablas y gráficas</strong> de distribuciones de frecuencias (de un resumen de los datos).</p></li>
+<li><p>Para la práctica de esta semana comenzaremos a usar la <em>Social Justice Sexuality project database</em>. Revisa el texto de la práctica para más información.</p></li>
+</ol>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Clase 1:</strong></th>
+<th><strong>Clase 2:</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><ol type="1">
+<li>Revisar status de <strong>Práctica 02</strong>.</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>Revisar respuestas preguntas 11, 12 y 13. Escalas de medición.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Archivos guardados en carpeta.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Pregunta conceptual de Tema 3.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Verificar que tengan instalado Excel, JASP/jamovi.</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li>Comenzar <strong>Práctica 03</strong>.</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>Equipos.</li>
+</ol>
+<!-- -->
+<ol start="5" type="1">
+<li>Actividad de cierre:</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>2 estudiantes.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Anotar 2 conceptos principales en <a href="https://paper.dropbox.com/?q=%23general">#general</a>.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Explicar 1 de esos conceptos en Zoom.</li>
+</ol></td>
+<td><ol type="1">
+<li>Personas a asignar en equipos (P2):</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>Ximena</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Jorge</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Continuación y revisión <strong>Práctica 03.</strong></li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Actividad de cierre:</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>En su canal de <a href="https://paper.dropbox.com/?q=%23equipo">#equipo</a>.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Cada estudiante escriba:</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>Lo que aprendió esta semana.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Lo que se le dificultó más del tema de la semana.</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li>Propuesta de horarios para <strong>asesorías</strong>:</li>
+</ol>
+<ul>
+<li>P2: Lunes 12 a 2 pm. Viernes 10 am.</li>
+</ul>
+<!-- -->
+<ul>
+<li>F2: Lunes 12 a 2 pm. Viernes 10 am.</li>
+</ul>
+<!-- -->
+<ul>
+<li>O2: Jueves 12 a 2 pm. Viernes 10 am.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><p><strong>Preguntas tema 2:</strong></p>
+<ol type="1">
+<li>Identidad, Magnitud, Intervalos Iguales y Cero absoluto. <u>En especial diferencia entre intervalos y razón.</u></li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Confiabilidad y validez.</li>
+</ol>
+<p><br>
+</p>
+<p><strong>Pregunta tema 3:</strong></p>
+<ol type="1">
+<li>Frecuencias acumuladas.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>¿Cuándo saber que una gráfica es simétrica?</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Colas largas, por qué.</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li>Bins = barras.</li>
+</ol>
+<!-- -->
+<ol start="5" type="1">
+<li>Distribución normal: aspectos de la distribución caracterizados.</li>
+</ol></td>
+<td><p>Programar horario de asesoría:</p>
+<ul>
+<li><del>Luis Bogarín</del></li>
+</ul>
+<!-- -->
+<ul>
+<li><del>Nicole Ponce</del></li>
+</ul>
+<!-- -->
+<ul>
+<li>Cristina Salazar (falta 01).</li>
+</ul>
+<!-- -->
+<ul>
+<li>Adda Piña (falta 01).</li>
+</ul>
+<!-- -->
+<ul>
+<li>Yael Echegaray (falta 02, preguntas 11-13)</li>
+</ul>
+<p><br>
+</p>
+<ul>
+<li>Naomi Betancourt (falta 02).</li>
+</ul>
+<!-- -->
+<ul>
+<li>Fernanda Haro (falta 01).</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+<section id="material-complementario-2" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="material-complementario-2"><span class="header-section-number">6.1</span> Material complementario:</h2>
+<ul>
+<li><p>Para revisar la relación entre <strong>"tamaño o ancho de bin", y la "cantidad de bins",</strong> en una gráfica de histograma, puedes jugar un poco con esta visualización interactiva: <a href="http://www.shodor.org/interactivate/activities/NormalDistribution/"><strong>Link</strong></a>.</p></li>
+<li><p>Para comprender mejor los valores de <strong>media y desviación estándar</strong> en su relación con la <strong>distribución normal,</strong> revisa esta visualización interactiva, que ayudará mucho a entender los valores: <a href="https://academo.org/demos/gaussian-distribution/"><strong>Link</strong></a>.</p></li>
+<li><p>The Zipf mystery (En 21 minutos date un paseo por <strong>distribuciones</strong> que aparecen [casi] en todas partes, de la mano de VSauce!): <strong><a href="https://www.youtube.com/watch?v=fCn8zs912OE&amp;feature=emb_logo&amp;ab_channel=Vsauce">YouTube</a>.</strong></p></li>
+<li><p>Este video de CrashCourse da un repaso sobre esas distribuciones como la normal, incluyendo su media y desviación estándar, y su simetría: <a href="https://www.youtube.com/watch?v=bPFNxD3Yg6U&amp;ab_channel=CrashCourse">YouTube</a>.</p></li>
+</ul>
+<p><br>
+</p>
+<hr>
+</section>
+</section>
+<section id="keycap-4-s04-14-18-feb---4-visualización-de-datos" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> <img src="https://paper.dropboxstatic.com/static/img/ace/emoji/0034-20e3.png?version=7.0.0" title="keycap: 4" class="img-fluid" alt="keycap: 4"> S04 (14-18 feb) - 4 Visualización de datos</h1>
+<ol type="1">
+<li><p>En esta semana se espera que llegues a la clase habiendo leído antes el <strong>Capítulo 4 (Visualización de datos),</strong> y haber contestado el Cuestionario del capítulo.</p></li>
+<li><p>El principal objetivo de esta semana es que practiques <strong>cómo crear y acomodar gráficas</strong> (visualizaciones de datos) que sean claras y comuniquen adecuadamente.&nbsp;</p></li>
+<li><p>Para eso la práctica se centrará en que generes prácticas diferentes para los mismos datos, y puedas elegir cuáles comunican mejor los datos.</p></li>
+</ol>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 49%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Clase 1:</strong></th>
+<th><strong>Clase 2:</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><ol type="1">
+<li>Revisar status de <strong>Práctica 03</strong>.</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>Revisar respuestas.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>No borrar comentarios (responder a ellos mencionando qué hicieron para resolverlos).</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>¡Portafolios! 28 de febrero. ¿Estructura?</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li><strong>Reflexión</strong> ética. <strong>Lectura</strong>.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Comenzar <strong>Práctica 04</strong>. <strong>Retomar objetivos y conceptos principales.</strong></li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>Equipos.</li>
+</ol></td>
+<td><ol type="1">
+<li>Continuación y revisión <strong>Práctica 04. Retomar objetivos y conceptos principales.</strong></li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Casos de plagios***.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Retomar <strong>reflexión ética</strong>.</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li>Survey: ¿horas de preparación independiente?</li>
+</ol>
+<!-- -->
+<ol start="5" type="1">
+<li>Recordatorios:</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>Domingo práctica 4.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Reflexión ética, lectura.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Fecha límite: 28 de febrero, 11:59 pm.</li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><p><strong>Preguntas tema 3:</strong></p>
+<ol type="1">
+<li>Frecuencias acumuladas.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>¿Cuándo saber que una gráfica es simétrica?</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Colas largas, por qué.</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li>Bins = barras.</li>
+</ol>
+<!-- -->
+<ol start="5" type="1">
+<li>Distribución normal: aspectos de la distribución caracterizados.</li>
+</ol>
+<p><br>
+</p>
+<p>Personas con más pendientes de correcciones de prácticas: (falta)</p>
+<ul>
+<li><strong>Copias:</strong></li>
+</ul>
+<!-- -->
+<ul>
+<li>Nicole (P01. P02: 10-13). &amp; Ivett (P01 copiada. P02 copiada de 1 a 9).</li>
+</ul>
+<!-- -->
+<ul>
+<li>Cristo &amp; Lizeth &amp; Ivett (P03).</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Falta práctica 01:</strong></li>
+</ul>
+<!-- -->
+<ul>
+<li>Cristina Salazar.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Lizeth García.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Ximena Bernal.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Isabella Sadighian.</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Falta práctica 02:</strong></li>
+</ul>
+<!-- -->
+<ul>
+<li>Lizeth García.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Naomi Betancourt.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Ximena Bernal.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Yael (P02: 11-13).</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Falta práctica 03:</strong></li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 1: <strong>Fernanda, Naomi, Adda, Jhoana</strong>.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 2: <del>Kenia</del>, <strong>Yael</strong>.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 3: <strong>Luis Bogarín</strong>, <strong>Fátima</strong>, Kelvin.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 4: <del>Lizeth</del>, Ivett.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 5: <strong>Erik</strong> Peterson, <strong>Heilyn</strong>, <strong>Cristina</strong>.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 6: .</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 7: Citlali, Erick Peñaloza (4-11).</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 8: Ximena, Isabella, Alejandro.</li>
+</ul>
+<p><br>
+</p>
+<ol type="1">
+<li>¿Cuándo %válido, cuándo no?</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Familia a la que han revelado su identidad sexual.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li><br>
+</li>
+</ol></td>
+<td><p><strong>Preguntas tema 4:</strong></p>
+<ol type="1">
+<li>Gráfica de violín.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Factor de engaño. x2</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>¿La grafica de pastel impide la comparación y demostración de la información?</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li>Eje y y cero.</li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+<section id="material-complementario-3" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="material-complementario-3"><span class="header-section-number">7.1</span> Material complementario:</h2>
+<ol type="1">
+<li><p>Una explicación sobre por qué al calcular la varianza debemos dividir entre $$n-1$$. <a href="http://oer2go.org/mods/en-kaos/math/probability/descriptive-statistics/variance_std_deviation/another-simulation-giving-evidence-that-n-1-gives-us-an-unbiased-estimate-of-variance.html">Video</a>.</p></li>
+<li><p>CrashCourse comentando otras recomendaciones sobre gráficas: <a href="https://www.youtube.com/watch?v=hEWY6kkBdpo&amp;list=PLH2l6uzC4UEW3iJO4T0qUeUEp_X-f1U7S&amp;index=6">YouTube</a>.</p></li>
+</ol>
+<p><br>
+</p>
+<hr>
+</section>
+</section>
+<section id="keycap-5-s05-22-26-feb---revisión-de-correcciones-de-prácticas" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> <img src="https://paper.dropboxstatic.com/static/img/ace/emoji/0035-20e3.png?version=7.0.0" title="keycap: 5" class="img-fluid" alt="keycap: 5"> S05 (22-26 feb) - <em>Revisión de correcciones de prácticas</em></h1>
+<ol type="1">
+<li><p>En esta semana se espera que hayas terminado todas las prácticas realizadas hasta el momento.</p></li>
+<li><p>El principal objetivo de esta semana es que tengamos oportunidad de repasar conceptos, temas, y análisis, de lo visto.</p></li>
+</ol>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Clase 1:</strong></th>
+<th><strong>Clase 2:</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><ol type="1">
+<li>Revisar status de <strong>Práctica 04</strong>.</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>Revisar respuestas.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Archivos compartidos.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>¿Dudas con portafolios?</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>Reflexión ética.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Cuestionarios.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Portafolio de prácticas.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li><em><strong>Fe de erratas</strong> de la traducción del libro</em>:</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>Van 2.</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li>Invitación a encuesta de Javier Exzacarías (15-20 mins):</li>
+</ol>
+<!-- -->
+<ol type="1">
+<li><a href="https://forms.gle/VLvUQcSfJm95c4tb9" class="uri">https://forms.gle/VLvUQcSfJm95c4tb9</a></li>
+</ol>
+<!-- -->
+<ol start="5" type="1">
+<li><strong>"Análisis propio". En equipos, registrar sus respuetas en su canal de Slack.</strong></li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>¿Cuáles intereses anotaste en la última pregunta de la práctica 1?</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>¿Hay algún tema que quieras explicar con más detalle?</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Revisen los Objetivos de Desarrollo Sostenible de la ONU, y vean cuáles ven más importantes:</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li><a href="https://onu.org.gt/objetivos-de-desarrollo/" class="uri">https://onu.org.gt/objetivos-de-desarrollo/</a></li>
+</ol>
+<!-- -->
+<ol start="5" type="1">
+<li><a href="https://www.undp.org/es/sustainable-development-goals" class="uri">https://www.undp.org/es/sustainable-development-goals</a></li>
+</ol>
+<!-- -->
+<ol start="6" type="1">
+<li>¿Qué temas encontraron en común en el equipo?</li>
+</ol></td>
+<td><ol type="1">
+<li><strong>"Análisis propio". En equipos, registrar sus respuetas en su canal de Slack.</strong></li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>¿Qué temas encontraron en común en el equipo?</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>Encontrar noticias recientes de al menos uno de los temas que pusieron de interés.</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li>Elegir una pregunta en equipo, y anotarla en Slack.</li>
+</ol>
+<!-- -->
+<ol start="4" type="1">
+<li>¿Qué tipos de datos necesitamos para contestarla? Buscar dónde podría haber datos y pegar enlaces en Slack.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li><strong>Siguientes temas:</strong></li>
+</ol>
+<!-- -->
+<ol type="1">
+<li>28 feb: capítulo 5.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li>07 mar: capítulo 6.</li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><p><strong>Preguntas tema 4:</strong></p>
+<ol type="1">
+<li>¿Por qué son tan utilizadas las gráficas de pastel si son tan poco recomendadas?</li>
+</ol>
+<p><br>
+</p>
+<p><strong>Preguntas tema 5:</strong></p>
+<ol type="1">
+<li>Puntajes Z. ¿Son individuales?</li>
+</ol>
+<p><br>
+</p>
+<p><strong>Falta práctica 04</strong>:</p>
+<ul>
+<li>Equipo 1:</li>
+</ul>
+<!-- -->
+<ul>
+<li>Fernanda.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Naomi.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Adda.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Jhoana.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 2:</li>
+</ul>
+<!-- -->
+<ul>
+<li>Ithzel.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Jorge.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Yael.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 3:</li>
+</ul>
+<!-- -->
+<ul>
+<li>Luis.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Kelvin.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 4:</li>
+</ul>
+<!-- -->
+<ul>
+<li>Lizeth.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Rodrigo (5-9).</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 5:</li>
+</ul>
+<!-- -->
+<ul>
+<li>Cristina.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Heilyn (4 en adelante).</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 7:</li>
+</ul>
+<!-- -->
+<ul>
+<li>Citlali.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Equipo 8:</li>
+</ul>
+<!-- -->
+<ul>
+<li>Diego.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Isabella.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Alejandro.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Ximena.</li>
+</ul>
+<p><br>
+</p>
+<p>Propuesta de horarios para <strong>asesorías</strong>:</p>
+<ul>
+<li>P2: Lunes 12 a 2 pm. Viernes 10 am.</li>
+</ul>
+<!-- -->
+<ul>
+<li>F2: Lunes 12 a 2 pm. Viernes 10 am.</li>
+</ul>
+<!-- -->
+<ul>
+<li>O2: Jueves 12 a 2 pm. Viernes 10 am.</li>
+</ul></td>
+<td><br>
+</td>
+</tr>
+</tbody>
+</table>
+<section id="material-complementario-4" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="material-complementario-4"><span class="header-section-number">8.1</span> Material complementario:</h2>
+<ol type="1">
+<li><p>CrashCourse repasando la media, mediana y moda: <a href="https://www.youtube.com/watch?v=kn83BA7cRNM&amp;list=PLH2l6uzC4UEW3iJO4T0qUeUEp_X-f1U7S&amp;index=4">YouTube</a>.</p></li>
+<li><p>Un video de CrashCourse repasa los puntajes Z y los percentiles (otra medida que hace cosas similares a los puntajes estandarizados): <a href="https://www.youtube.com/watch?v=uAxyI_XfqXk&amp;ab_channel=CrashCourse">YouTube</a>.</p></li>
+</ol>
+<p><br>
+</p>
+<hr>
+</section>
+</section>
+<section id="keycap-6-s06-28-feb-04-mar---cierre-del-parcial" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> <img src="https://paper.dropboxstatic.com/static/img/ace/emoji/0036-20e3.png?version=7.0.0" title="keycap: 6" class="img-fluid" alt="keycap: 6"> S06 (28 feb-04 mar) - Cierre del parcial</h1>
+<ol type="1">
+<li><p>Durante esta semana comenzaremos con los contenidos del Parcial 2 (<a href="https://paper.dropbox.com/doc/Ag8YJmohAuSZdQOrtVD4F">+<img src="https://paper.dropboxstatic.com/static/img/ace/emoji/1f4ca.png?version=7.0.0" title="bar chart" class="img-fluid" alt="bar chart"> 2022-1: Estadística Parcial 2</a> ). Por lo que deberás leer la lectura indicada (<strong>Capítulo 5, Ajustar modelos a los datos</strong>) antes de llegar a la clase (claro, y contestar el cuestionario y prepararte para resolver la práctica).</p></li>
+<li><p>Al inicio de esta semana deberás haber entregado tu <strong>portafolio</strong> del parcial 1, y la Reflexión ética en los espacios indicados en Blackboard.</p></li>
+<li><p>También al inicio de esta semana, es la fecha límite cuando se registrará la puntuación que hayas obtenido en tus cuestionarios. Recuerda que tienes número ilimitado de intentos para realizarlos, y que contará tu calificación más alta.</p></li>
+<li><p>En el transcurso de la semana tu profesor estará revisando los portafolios a partir de la rúbrica asignada, y las Reflexiones éticas.</p></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiado");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiado");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Programa.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Programa de la materia</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
