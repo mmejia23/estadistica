@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Manuel Mejía, CETYS Universidad">
+
+<title>Estadística para las Ciencias Sociales - 6️⃣ Probabilidad</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./c07muestreo.html" rel="next">
+<link href="./c05ajustarmodelos.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">6️⃣ Probabilidad</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Estadística para las Ciencias Sociales</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Programa</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./programa1intro.html" class="sidebar-item-text sidebar-link">📕 Presentación general</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./programa2trabajo.html" class="sidebar-item-text sidebar-link">🔨 Método de trabajo</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./programa3criterios.html" class="sidebar-item-text sidebar-link">💯 Criterios de evaluación</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Parcial 1</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c01introduccion.html" class="sidebar-item-text sidebar-link">1️⃣️ Introducción</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c02trabajarcondatos.html" class="sidebar-item-text sidebar-link">2️⃣ Trabajar con datos</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c03resumir.html" class="sidebar-item-text sidebar-link">3️⃣ Resumir datos</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c04visualizacion.html" class="sidebar-item-text sidebar-link">4️⃣ Visualización de datos</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./parcial1.html" class="sidebar-item-text sidebar-link">Cierre de Parcial 1</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Parcial 2</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c05ajustarmodelos.html" class="sidebar-item-text sidebar-link">5️⃣ Ajustar modelos a los datos</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c06probabilidad.html" class="sidebar-item-text sidebar-link active">6️⃣ Probabilidad</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c07muestreo.html" class="sidebar-item-text sidebar-link">7️⃣ Muestreo</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c09pruebahipotesis.html" class="sidebar-item-text sidebar-link">9️⃣ Prueba de hipótesis</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c10efectos.html" class="sidebar-item-text sidebar-link">1️⃣0️⃣ Cuantificar efectos y diseñar estudios</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./parcial2.html" class="sidebar-item-text sidebar-link">Cierre de Parcial 2</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Parcial 3</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c12categoricas.html" class="sidebar-item-text sidebar-link">1️⃣2️⃣ Modelar relaciones categórica</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c13continuas.html" class="sidebar-item-text sidebar-link">1️⃣️3️⃣ Modelar relaciones continuas</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c15compararmedias.html" class="sidebar-item-text sidebar-link">1️⃣5️⃣ Comparar medias</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./c16practica.html" class="sidebar-item-text sidebar-link">1️⃣6️⃣ Modelación estadística práctica</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./parcial3.html" class="sidebar-item-text sidebar-link">Cierre de Parcial 3</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Índice</h2>
+   
+  <ul>
+  <li><a href="#probabilidad" id="toc-probabilidad" class="nav-link active" data-scroll-target="#probabilidad">6️⃣ Probabilidad</a>
+  <ul class="collapse">
+  <li><a href="#clases" id="toc-clases" class="nav-link" data-scroll-target="#clases">Clases</a>
+  <ul class="collapse">
+  <li><a href="#clase-1" id="toc-clase-1" class="nav-link" data-scroll-target="#clase-1">Clase 1</a></li>
+  <li><a href="#clase-2" id="toc-clase-2" class="nav-link" data-scroll-target="#clase-2">Clase 2</a></li>
+  </ul></li>
+  <li><a href="#dudas-frecuentes" id="toc-dudas-frecuentes" class="nav-link" data-scroll-target="#dudas-frecuentes">Dudas frecuentes</a></li>
+  <li><a href="#material-complementario" id="toc-material-complementario" class="nav-link" data-scroll-target="#material-complementario">Material complementario</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">6️⃣ Probabilidad</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-contents">
+             <p>Manuel Mejía, CETYS Universidad </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/banner-parcial2.jpeg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<section id="probabilidad" class="level1">
+<h1>6️⃣ Probabilidad</h1>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 30%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Fechas:</strong></th>
+<th style="text-align: left;"><strong>Tema:</strong></th>
+<th style="text-align: left;"><strong>Antes de clase:</strong></th>
+<th style="text-align: left;"><strong>Durante clase:</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">06 - 12 marzo</td>
+<td style="text-align: left;">6. Probabilidad.</td>
+<td style="text-align: left;">📖 Lectura en Perusall<br>❓Cuestionario en BB</td>
+<td style="text-align: left;">🗒️ Práctica: <a href="https://docs.google.com/document/d/1hIVISGzG6hUV4HuEqmOvqeF00PSQKjo0/edit?usp=sharing&amp;ouid=105290187120964834124&amp;rtpof=true&amp;sd=true">Doc</a> | <a href="https://colab.research.google.com/drive/12w6pW7VhI_3vIwo32_Hk6YOLGaYxAerF?usp=sharing">GoogleColab</a><br>🗃️ <a href="https://www.dropbox.com/sh/1ojvuq9hycdd7fm/AADzS7fBWsUzEjjTEgA-MGOQa?dl=0">Datos</a><br>🎞️ <a href="https://youtube.com/playlist?list=PLpvx58GYIsqPNxtqSonqn7U7DgQ12Lfxm">Videos de apoyo</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<ol type="1">
+<li><p>En esta semana ya se espera que hayas leído el <strong>Capítulo 6 (Probabilidad)</strong> antes de llegar a la clase. No olvides contestar el Cuestionario de este capítulo también antes de llegar a clase.</p></li>
+<li><p>Lo más relevante de esta semana es que comencemos a <strong>utilizar números para asignar probabilidades a eventos</strong>. Además de identificar que hay varias maneras de comentar sobre probabilidad de algo, especialmente con las <strong>probabilidades condicionales</strong>.</p></li>
+</ol>
+<hr>
+<section id="clases" class="level2">
+<h2 class="anchored" data-anchor-id="clases">Clases</h2>
+<section id="clase-1" class="level3">
+<h3 class="anchored" data-anchor-id="clase-1">Clase 1</h3>
+<ol type="1">
+<li>Revisar status de <strong>Práctica 05</strong>.</li>
+<li>Comenzar <strong>Práctica 06</strong>. En equipos.</li>
+</ol>
+</section>
+<section id="clase-2" class="level3">
+<h3 class="anchored" data-anchor-id="clase-2">Clase 2</h3>
+<ol type="1">
+<li>Continuación y revisión de <strong>Práctica 06</strong>.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="dudas-frecuentes" class="level2">
+<h2 class="anchored" data-anchor-id="dudas-frecuentes">Dudas frecuentes</h2>
+<ol type="1">
+<li>Representación Bayesiana.</li>
+<li>Probabilidades de infección con vacuna COVID-19.</li>
+<li>Reglas de probabilidad.</li>
+</ol>
+<hr>
+</section>
+<section id="material-complementario" class="level2">
+<h2 class="anchored" data-anchor-id="material-complementario">Material complementario</h2>
+<ol type="1">
+<li>CrashCourse tiene unos videos muy buenos sobre las bases de la probabilidad:
+<ol type="1">
+<li><a href="https://www.youtube.com/watch?v=OyddY7DlV58">Part1</a>: Rules and patterns.</li>
+<li><a href="https://www.youtube.com/watch?v=oZCskBpHWyk&amp;t=1s">Part2</a>: Updating your beliefs with Bayes.</li>
+<li><a href="https://www.youtube.com/watch?v=jL9en6NvQfk">Randomness</a>.</li>
+</ol></li>
+<li>CrashCourse tiene un video de 12 mins muy bueno como introducción a la probabilidad, incluyendo la mención de la probabilidad condicional en exámenes médicos: <a href="https://www.youtube.com/watch?v=OyddY7DlV58&amp;ab_channel=CrashCourse">YouTube</a>.</li>
+<li>CrashCourse y la distribución binomial (éxito/fracaso): <a href="https://www.youtube.com/watch?v=WR0nMTr6uOo&amp;list=PLH2l6uzC4UEW3iJO4T0qUeUEp_X-f1U7S&amp;index=16">YouTube</a>.</li>
+<li>Otro video de CrashCourse hace un excelente análisis de la Regla de Bayes para invertir probabilidades condicionales: <a href="https://www.youtube.com/watch?v=oZCskBpHWyk&amp;ab_channel=CrashCourse">YouTube</a>.</li>
+<li>CrashCourse y azar: <a href="https://www.youtube.com/watch?v=jL9en6NvQfk&amp;list=PLH2l6uzC4UEW3iJO4T0qUeUEp_X-f1U7S&amp;index=18">YouTube</a>.</li>
+</ol>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiado");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiado");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/https:\/\/mmejia23\.github\.io\/estadistica\//);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./c05ajustarmodelos.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">5️⃣ Ajustar modelos a los datos</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./c07muestreo.html" class="pagination-link">
+        <span class="nav-page-text">7️⃣ Muestreo</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
