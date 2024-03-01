@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Assessment</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Personality Assessment Form</h2>
+
+    <form id="personalityForm">
+        <label for="item1">1. Mi trabajo me ha vuelto insensible a las preocupaciones de los demás.</label>
+        <ul>
+            <li><input type="radio" name="item1" value="4"> Agree</li>
+            <li><input type="radio" name="item1" value="3"> Neutral</li>
+            <li><input type="radio" name="item1" value="2"> Disagree</li>
+            <li><input type="radio" name="item1" value="1"> Strongly Disagree</li>
+        </ul>
+
+        <label for="item2">2. Me siento distante de las personas con las que trabajo.</label>
+        <ul>
+            <li><input type="radio" name="item2" value="4"> Agree</li>
+            <li><input type="radio" name="item2" value="3"> Neutral</li>
+            <li><input type="radio" name="item2" value="2"> Disagree</li>
+            <li><input type="radio" name="item2" value="1"> Strongly Disagree</li>
+        </ul>
+
+        <!-- Repeat the same structure for the other items -->
+
+        <button type="button" onclick="calculateScore()">Send</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+        function calculateScore() {
+            let totalScore = 0;
+			const item1Val = document.querySelector(`input[name=${'item1'}]:checked`);
+			const item2Val = document.querySelector(`input[name=${'item2'}]:checked`);
+			totalScore = parseInt(item1Val.value) + parseInt(item2Val.value);
+			
+            // Display the results
+			const resultElement = document.getElementById('result');
+			//resultElement.innerHTML = '<h3>Done</h3>';
+			resultElement.innerHTML = `<h3>Su puntuación es: ${totalScore}</h3>`;
+        }
+    </script>
+</body>
+</html>
