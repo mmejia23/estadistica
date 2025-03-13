@@ -53,56 +53,84 @@
     "href": "c10efectos.html",
     "title": "1️⃣0️⃣ Cuantificar efectos y diseñar estudios",
     "section": "",
-    "text": "Fechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n07 - 13 abr.\nRevisión de correcciones de prácticas y Avance de análisis\n\n\n\n\n\n\n\n\nEn esta semana se espera que llegues a la clase habiendo leído antes el Capítulo 10 (Cuantificar efectos y diseñar estudios), y haber contestado el Cuestionario del capítulo.\nYa que dominaste la prueba de hipótesis, tenemos que corregir el error de sólo tomar decisiones de Sí/No. La prueba de hipótesis únicamente te permite afirmar (o no afirmar) si existe un efecto según los datos, pero no permite indicar qué tan grande es ese efecto (recuerda que una dieta que sólo te permita disminuir 10 gramos no será una buena dieta, aunque sí exista un efecto).\n\n\n\n\n\n\n\nRevisar status de Práctica 09.\nComenzar Práctica 10. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 10.\n\n\n\n\n\n\n\nSimulaciones que facilitarán comprender los temas!:\n\nRPsychologist sobre la d de Cohen.\nRPsychologist sobre la r de Pearson.\nRPsychologist sobre los Intervalos de Confianza.\nRPsychologist sobre el tamaño del efecto y poder estadístico.\nSimulación en RShiny de Bruce Dudek sobre intervalos de confianza.\n\nCrashCourse y grados de libertad y tamaños de efecto: YouTube.\nCrashCourse e intervalos de confianza: YouTube."
+    "text": "Fechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n07 - 13 abr.\nRevisión de correcciones de prácticas y Avance de análisis\n\n\n\n\n\n\n\n\nEn esta semana se espera que llegues a la clase habiendo leído antes el Capítulo 10 (Cuantificar efectos y diseñar estudios), y haber contestado el Cuestionario del capítulo.\nYa que dominaste la prueba de hipótesis, tenemos que corregir el error de sólo tomar decisiones de Sí/No. La prueba de hipótesis únicamente te permite afirmar (o no afirmar) si existe un efecto según los datos, pero no permite indicar qué tan grande es ese efecto (recuerda que una dieta que sólo te permita disminuir 10 gramos no será una buena dieta, aunque sí exista un efecto).\n\n\n\n\n\n\n\nRevisar status de Práctica 09.\nComenzar Práctica 10. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 10.\n\n\n\n\n\n\n\nSimulaciones que facilitarán comprender los temas!:\n\nRPsychologist sobre la d de Cohen.\nRPsychologist sobre la r de Pearson.\nRPsychologist sobre los Intervalos de Confianza.\nRPsychologist sobre el tamaño del efecto y poder estadístico.\nSimulación en RShiny de Bruce Dudek sobre intervalos de confianza.\n\nCrashCourse y grados de libertad y tamaños de efecto: YouTube.\nCrashCourse e intervalos de confianza: YouTube.",
+    "crumbs": [
+      "Parcial 2",
+      "1️⃣0️⃣ Cuantificar efectos y diseñar estudios"
+    ]
   },
   {
     "objectID": "c10efectos.html#clases",
     "href": "c10efectos.html#clases",
     "title": "1️⃣0️⃣ Cuantificar efectos y diseñar estudios",
     "section": "",
-    "text": "Revisar status de Práctica 09.\nComenzar Práctica 10. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 10."
+    "text": "Revisar status de Práctica 09.\nComenzar Práctica 10. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 10.",
+    "crumbs": [
+      "Parcial 2",
+      "1️⃣0️⃣ Cuantificar efectos y diseñar estudios"
+    ]
   },
   {
     "objectID": "c10efectos.html#material-complementario",
     "href": "c10efectos.html#material-complementario",
     "title": "1️⃣0️⃣ Cuantificar efectos y diseñar estudios",
     "section": "",
-    "text": "Simulaciones que facilitarán comprender los temas!:\n\nRPsychologist sobre la d de Cohen.\nRPsychologist sobre la r de Pearson.\nRPsychologist sobre los Intervalos de Confianza.\nRPsychologist sobre el tamaño del efecto y poder estadístico.\nSimulación en RShiny de Bruce Dudek sobre intervalos de confianza.\n\nCrashCourse y grados de libertad y tamaños de efecto: YouTube.\nCrashCourse e intervalos de confianza: YouTube."
+    "text": "Simulaciones que facilitarán comprender los temas!:\n\nRPsychologist sobre la d de Cohen.\nRPsychologist sobre la r de Pearson.\nRPsychologist sobre los Intervalos de Confianza.\nRPsychologist sobre el tamaño del efecto y poder estadístico.\nSimulación en RShiny de Bruce Dudek sobre intervalos de confianza.\n\nCrashCourse y grados de libertad y tamaños de efecto: YouTube.\nCrashCourse e intervalos de confianza: YouTube.",
+    "crumbs": [
+      "Parcial 2",
+      "1️⃣0️⃣ Cuantificar efectos y diseñar estudios"
+    ]
   },
   {
     "objectID": "c07muestreo.html",
     "href": "c07muestreo.html",
     "title": "7️⃣ Muestreo",
     "section": "",
-    "text": "Fechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n17 - 23 mar.\n7. Muestreo.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica: Doc | GoogleColab🗃️ Datos🎞️ Videos de apoyo\n\n\n\n\n\n\nEn esta semana se espera que llegues a la clase habiendo leído antes Capítulo 7 (Muestreo) y haber contestado el Cuestionario de los capítulos.\nLa gran interrogante a resolver con la práctica de esta semana es qué tan útil es seleccionar una muestra, en lugar de trabajar con toda la población. ¿Realmente se puede saber algo de una población si sólo estudiamos una pequeña parte?\n\n\n\n\n\n\n\nRevisar status de Práctica 06.\nComenzar Práctica 07. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 07.\n\n\n\n\n\n\n\n¿Qué son los números pseudo-aleatorios?\n¿El remuestreo sería la forma de hacer confiable un muestreo?\nAplicaciones en computadoras.\nBootstrap y Simulación Montecarlo.\n\n\n\n\n\n\nFundamentals of Data Visualization.\nWhat is Sampling Error? - Displayr."
+    "text": "Fechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n17 - 23 mar.\n7. Muestreo.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica: Doc | GoogleColab🗃️ Datos🎞️ Videos de apoyo\n\n\n\n\n\n\nEn esta semana se espera que llegues a la clase habiendo leído antes Capítulo 7 (Muestreo) y haber contestado el Cuestionario de los capítulos.\nLa gran interrogante a resolver con la práctica de esta semana es qué tan útil es seleccionar una muestra, en lugar de trabajar con toda la población. ¿Realmente se puede saber algo de una población si sólo estudiamos una pequeña parte?\n\n\n\n\n\n\n\nRevisar status de Práctica 06.\nComenzar Práctica 07. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 07.\n\n\n\n\n\n\n\n¿Qué son los números pseudo-aleatorios?\n¿El remuestreo sería la forma de hacer confiable un muestreo?\nAplicaciones en computadoras.\nBootstrap y Simulación Montecarlo.\n\n\n\n\n\n\nFundamentals of Data Visualization.\nWhat is Sampling Error? - Displayr.",
+    "crumbs": [
+      "Parcial 2",
+      "7️⃣ Muestreo"
+    ]
   },
   {
     "objectID": "c07muestreo.html#clases",
     "href": "c07muestreo.html#clases",
     "title": "7️⃣ Muestreo",
     "section": "",
-    "text": "Revisar status de Práctica 06.\nComenzar Práctica 07. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 07."
+    "text": "Revisar status de Práctica 06.\nComenzar Práctica 07. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 07.",
+    "crumbs": [
+      "Parcial 2",
+      "7️⃣ Muestreo"
+    ]
   },
   {
     "objectID": "c07muestreo.html#dudas-frecuentes",
     "href": "c07muestreo.html#dudas-frecuentes",
     "title": "7️⃣ Muestreo",
     "section": "",
-    "text": "¿Qué son los números pseudo-aleatorios?\n¿El remuestreo sería la forma de hacer confiable un muestreo?\nAplicaciones en computadoras.\nBootstrap y Simulación Montecarlo."
+    "text": "¿Qué son los números pseudo-aleatorios?\n¿El remuestreo sería la forma de hacer confiable un muestreo?\nAplicaciones en computadoras.\nBootstrap y Simulación Montecarlo.",
+    "crumbs": [
+      "Parcial 2",
+      "7️⃣ Muestreo"
+    ]
   },
   {
     "objectID": "c07muestreo.html#material-complementario",
     "href": "c07muestreo.html#material-complementario",
     "title": "7️⃣ Muestreo",
     "section": "",
-    "text": "Fundamentals of Data Visualization.\nWhat is Sampling Error? - Displayr."
+    "text": "Fundamentals of Data Visualization.\nWhat is Sampling Error? - Displayr.",
+    "crumbs": [
+      "Parcial 2",
+      "7️⃣ Muestreo"
+    ]
   },
   {
     "objectID": "c05ajustarmodelos.html",
     "href": "c05ajustarmodelos.html",
     "title": "5️⃣ Ajustar modelos a los datos",
     "section": "",
-    "text": "Fechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n03 - 09 mar.\n5. Ajustar modelos a los datos.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos | Documentación🎞️ Videos de apoyo\n\n\n\n\n\n\nEn esta semana ya se espera que hayas leído el Capítulo 5 (Ajustar modelos a los datos) antes de llegar a la clase. No olvides contestar el Cuestionario de este capítulo también antes de llegar a clase.\nEl principal objetivo de esta semana es que consideres a la estadística como una herramienta para generar y ajustar modelos sobre el mundo y la realidad.\nLa idea de que lo que hacemos en estadística es “un modelo” es una pieza clave para que el resto de los capítulos tengan más sentido.\nPara eso la práctica se centrará en que obtengas medidas que representan diferentes tipos de modelos de los datos, así como algunas medidas que nos permiten saber qué tan bien ajusta el modelo a los datos.\n\n\n\n\n\n\n\nCriterios y temas para 2do parcial.\n\nNo hay práctica del tema 08.\nMismo esquema: Lectura -&gt; Cuestionario -&gt; Práctica -&gt; Corrección.\nAvance de análisis.\n\nComenzar Práctica 05.\n\n\n\n\n\nContinuación y revisión de Práctica 05.\nExplicar errores cuadrados y “overfitting” con: https://rpsychologist.com/correlation/\n\n\n\n\n\n\nPuntajes Z y estandarizados, ¿para qué se utilizan?\n\n\n\n\n\n\nCrashCourse repasando la media, mediana y moda: YouTube.\nUn video de CrashCourse repasa los puntajes Z y los percentiles (otra medida que hace cosas similares a los puntajes estandarizados): YouTube.",
+    "text": "Fechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n03 - 09 mar.\n5. Ajustar modelos a los datos.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos | Documentación🎞️ Videos de apoyo\n\n\n\n\n\n\nEn esta semana ya se espera que hayas leído el Capítulo 5 (Ajustar modelos a los datos) antes de llegar a la clase. No olvides contestar el Cuestionario de este capítulo también antes de llegar a clase.\nEl principal objetivo de esta semana es que consideres a la estadística como una herramienta para generar y ajustar modelos sobre el mundo y la realidad.\nLa idea de que lo que hacemos en estadística es “un modelo” es una pieza clave para que el resto de los capítulos tengan más sentido.\nPara eso la práctica se centrará en que obtengas medidas que representan diferentes tipos de modelos de los datos, así como algunas medidas que nos permiten saber qué tan bien ajusta el modelo a los datos.\n\n\n\n\n\n\n\nCriterios y temas para 2do parcial.\n\nNo hay práctica del tema 08.\nMismo esquema: Lectura -&gt; Cuestionario -&gt; Práctica -&gt; Corrección.\nAvance de análisis.\n\nComenzar Práctica 05.\n\n\n\n\n\nContinuación y revisión de Práctica 05.\nExplicar errores cuadrados y “overfitting” con: https://rpsychologist.com/correlation/\n\n\n\n\n\n\nPuntajes Z y estandarizados, ¿para qué se utilizan?\n\n\n\n\n\n\nCrashCourse repasando la media, mediana y moda: YouTube.\nUn video de CrashCourse repasa los puntajes Z y los percentiles (otra medida que hace cosas similares a los puntajes estandarizados): YouTube.",
     "crumbs": [
       "Parcial 2",
       "5️⃣ Ajustar modelos a los datos"
@@ -223,7 +251,7 @@
     "href": "parcial3.html#materiales-y-fechas",
     "title": "Cierre de Parcial 3",
     "section": "🗓️ Materiales y fechas",
-    "text": "🗓️ Materiales y fechas\n\n\n\n\n\nFechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n21 - 27 abr.\n12. Modelar relaciones categóricas.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos | Documentación🎞️ Videos de apoyo\n\n\n28 abr. - 04 may.\n13. Modelar relaciones continuas.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos | Documentación🎞️ Videos de apoyo\n\n\n05 - 11 may.\n15. Comparar medias.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos | Documentación | Sección 2: REMPOS🎞️ Videos de apoyo\n\n\n12 - 18 may.\n16. Modelación estadística práctica.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos🎞️ Videos de apoyo\n\n\n19 - 25 may.\nRevisión de correcciones de prácticas y Apoyo para Análisis.\n\n\n\n\n21 may.\nFecha límite para: Cuestionarios.\n\n\n\n\n21 may.\nFecha límite para: Correcciones de prácticas.\n\n\n\n\n25 may.\nFecha límite para entregar: Reflexión ética.\n\n\n\n\n30 may.\nFecha límite para entregar:  Presentación de análisis.\n\nEnlace a documento guía\n\n\n26 may. - 03 jun.\nSemana de EvaluaciónExamen práctico: 2P: lunes 26 de mayo; P2: martes 27 de mayo. Examen teórico: 2P y P2: jueves 29 de mayo."
+    "text": "🗓️ Materiales y fechas\n\n\n\n\n\nFechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n21 - 27 abr.\n12. Modelar relaciones categóricas.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos | Documentación🎞️ Videos de apoyo\n\n\n28 abr. - 04 may.\n13. Modelar relaciones continuas.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos | Documentación🎞️ Videos de apoyo\n\n\n05 - 11 may.\n15. Comparar medias.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos | Documentación | Sección 2: REMPOS🎞️ Videos de apoyo\n\n\n12 - 18 may.\n16. Modelación estadística práctica.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos🎞️ Videos de apoyo\n\n\n19 - 25 may.\nRevisión de correcciones de prácticas y Apoyo para Análisis.\n\n\n\n\n21 may.\nFecha límite para: Cuestionarios.\n\n\n\n\n21 may.\nFecha límite para: Correcciones de prácticas.\n\n\n\n\n25 may.\nFecha límite para entregar: Reflexión ética.\n\n\n\n\n30 may.\nFecha límite para entregar:  Presentación de análisis.\n\nEnlace a documento guía\n\n\n26 may. - 03 jun.\nSemana de EvaluaciónExamen práctico: 2P: lunes 26 de mayo; P2: martes 27 de mayo. Examen teórico: 2P y P2: jueves 29 de mayo."
   },
   {
     "objectID": "parcial3.html#reflexión-ética",
@@ -492,7 +520,7 @@
     "href": "parcial2.html#materiales-y-fechas",
     "title": "Cierre de Parcial 2",
     "section": "🗓️ Materiales y fechas",
-    "text": "🗓️ Materiales y fechas\n\n\n\n\n\nFechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n03 - 09 mar.\n5. Ajustar modelos a los datos.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos | Documentación🎞️ Videos de apoyo\n\n\n10 - 16 mar.\n6. Probabilidad.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica: Doc | GoogleColab🗃️ Datos🎞️ Videos de apoyo\n\n\n17 - 23 mar.\n7. Muestreo.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica: Doc | GoogleColab🗃️ Datos🎞️ Videos de apoyo\n\n\n24 - 30 mar.\n9. Prueba de hipótesis.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos🎞️ Videos de apoyo\n\n\n31 mar. - 06 abr.\n10. Cuantificar efectos y diseñar estudios.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica: Doc | GoogleColab🗃️ Datos🎞️ Videos de apoyo\n\n\n07 - 13 abr.\nRevisión de correcciones de prácticas y Avance de análisis\n\n\n\n\n09 abr.\nFecha límite para: Cuestionarios, y Correcciones de prácticas.\n\n\n\n\n11 abr.\nFecha límite para entregar: Avance de análisis.\n🔙 Revisa tu descripción de tema que realizaste en el Parcial 1.\n🗒️ Documento a entregar (Individual): Doc |\n\n\n14 - 20 abr.\nVacaciones"
+    "text": "🗓️ Materiales y fechas\n\n\n\n\n\nFechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n03 - 09 mar.\n5. Ajustar modelos a los datos.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos | Documentación🎞️ Videos de apoyo\n\n\n10 - 16 mar.\n6. Probabilidad.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica: Doc | GoogleColab🗃️ Datos🎞️ Videos de apoyo\n\n\n17 - 23 mar.\n7. Muestreo.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica: Doc | GoogleColab🗃️ Datos🎞️ Videos de apoyo\n\n\n24 - 30 mar.\n9. Prueba de hipótesis.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos🎞️ Videos de apoyo\n\n\n31 mar. - 06 abr.\n10. Cuantificar efectos y diseñar estudios.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica: Doc | GoogleColab🗃️ Datos🎞️ Videos de apoyo\n\n\n07 - 13 abr.\nRevisión de correcciones de prácticas y Avance de análisis\n\n\n\n\n09 abr.\nFecha límite para: Cuestionarios, y Correcciones de prácticas.\n\n\n\n\n11 abr.\nFecha límite para entregar: Avance de análisis.\n🔙 Revisa tu descripción de tema que realizaste en el Parcial 1.\n🗒️ Documento a entregar (Individual): Doc |\n\n\n14 - 20 abr.\nVacaciones"
   },
   {
     "objectID": "parcial2.html#reflexión-ética",
@@ -627,7 +655,7 @@
     "href": "c06probabilidad.html",
     "title": "6️⃣ Probabilidad",
     "section": "",
-    "text": "Fechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n10 - 16 mar.\n6. Probabilidad.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica: Doc | GoogleColab🗃️ Datos🎞️ Videos de apoyo\n\n\n\n\n\n\nEn esta semana ya se espera que hayas leído el Capítulo 6 (Probabilidad) antes de llegar a la clase. No olvides contestar el Cuestionario de este capítulo también antes de llegar a clase.\nLo más relevante de esta semana es que comencemos a utilizar números para asignar probabilidades a eventos. Además de identificar que hay varias maneras de comentar sobre probabilidad de algo, especialmente con las probabilidades condicionales.\n\n\n\n\n\n\n\nRevisar status de Práctica 05.\nComenzar Práctica 06. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 06.\n\n\n\n\n\n\n\nRepresentación Bayesiana.\nProbabilidades de infección con vacuna COVID-19.\nReglas de probabilidad.\n\n\n\n\n\n\nCrashCourse tiene unos videos muy buenos sobre las bases de la probabilidad:\n\nPart1: Rules and patterns.\nPart2: Updating your beliefs with Bayes.\nRandomness.\n\nCrashCourse tiene un video de 12 mins muy bueno como introducción a la probabilidad, incluyendo la mención de la probabilidad condicional en exámenes médicos: YouTube.\nCrashCourse y la distribución binomial (éxito/fracaso): YouTube.\nOtro video de CrashCourse hace un excelente análisis de la Regla de Bayes para invertir probabilidades condicionales: YouTube.\nCrashCourse y azar: YouTube.",
+    "text": "Fechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n10 - 16 mar.\n6. Probabilidad.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica: Doc | GoogleColab🗃️ Datos🎞️ Videos de apoyo\n\n\n\n\n\n\nEn esta semana ya se espera que hayas leído el Capítulo 6 (Probabilidad) antes de llegar a la clase. No olvides contestar el Cuestionario de este capítulo también antes de llegar a clase.\nLo más relevante de esta semana es que comencemos a utilizar números para asignar probabilidades a eventos. Además de identificar que hay varias maneras de comentar sobre probabilidad de algo, especialmente con las probabilidades condicionales.\n\n\n\n\n\n\n\nRevisar status de Práctica 05.\nComenzar Práctica 06. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 06.\n\n\n\n\n\n\n\nRepresentación Bayesiana.\nProbabilidades de infección con vacuna COVID-19.\nReglas de probabilidad.\n\n\n\n\n\n\nCrashCourse tiene unos videos muy buenos sobre las bases de la probabilidad:\n\nPart1: Rules and patterns.\nPart2: Updating your beliefs with Bayes.\nRandomness.\n\nCrashCourse tiene un video de 12 mins muy bueno como introducción a la probabilidad, incluyendo la mención de la probabilidad condicional en exámenes médicos: YouTube.\nCrashCourse y la distribución binomial (éxito/fracaso): YouTube.\nOtro video de CrashCourse hace un excelente análisis de la Regla de Bayes para invertir probabilidades condicionales: YouTube.\nCrashCourse y azar: YouTube.",
     "crumbs": [
       "Parcial 2",
       "6️⃣ Probabilidad"
@@ -671,21 +699,33 @@
     "href": "c09pruebahipotesis.html",
     "title": "9️⃣ Prueba de hipótesis",
     "section": "",
-    "text": "Fechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n24 - 30 mar.\n9. Prueba de hipótesis.\n📖 Lectura en Perusall❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos🎞️ Videos de apoyo\n\n\n\n\n\n\nEn esta semana se espera que llegues a la clase habiendo leído antes el Capítulo 9 (Prueba de hipótesis), y haber contestado el Cuestionario del capítulo.\nEste tema es uno de los más importantes de todo el semestre, y de casi cualquier curso de estadística en licenciatura. Convendrá que le dediques un poco más de energía mental. También porque este tema incluye una acrobacia (o pirueta) intelectual un poco rara, pero que una vez entendiéndola, será muy fácil de identificar.\nUn video complementando la elaboración de hipótesis en una prueba de hipótesis nula: https://youtu.be/7DzcfS5IgCc Altamente recomendable revisarlo para ayudar a contestar la práctica de esta semana.\n\n\n\n\n\n\n\nRevisar status de Práctica 07 (no hay Práctica de tema 08).\nComenzar Práctica 09. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 09.\n\n\n\n\n\n\n\nStatQuest tiene una explicación paso a paso para comprender el valor p con ejemplos comparando medicamentos. YouTube.\nPara entender un poco mejor cómo varían los valores p específicamente en el contexto de la Prueba t de Student, esta visualización funcionará muy bien: RPsychologist.\nCrashCourse revisa cómo funcionan las pruebas de hipótesis: YouTube.\nCrashCourse tiene dos videos sobre los valores p. En el primero, puedes ver la aplicación a la prueba de hipótesis que se vio en este capítulo (YouTube), y en el segundo comenta sobre los problemas en el uso de los valores p (YouTube).\nOtras pruebas de hipótesis:\n\nProbabilidad de Contagio con Asistir a clases presenciales.\nLas vacunas disminuyen probabilidad de contagio.\nJugar futbol americano incrementa lesiones cerebrales. \n\nCrashCourse también comentó sobre la crisis de replicabilidad! (YouTube), y sobre p-hacking! (YouTube).\nEl canal de YouTube QuantPsych hace un repaso de la ética en la investigación: YouTube.\nUna excelente conferencia de Alexander Panchin en FutureBioTech, que creo que explica mejor el tema de la semana mejor que lo que hizo Poldrack, y mucho mejor que el video en Edpuzzle (¬¬): YouTube.\n¡¿Jelly beans verdes causan acné?! xkcd tiene la respuesta: xkcd."
+    "text": "Fechas:\nTema:\nAntes de clase:\nDurante clase:\n\n\n\n\n24 - 30 mar.\n9. Prueba de hipótesis.\n📖 Lectura en Perusall  Opcional: (PDF) (WEB)  🎞️ Videolecciones ❓Cuestionario en BB\n🗒️ Práctica🗃️ Datos🎞️ Videos de apoyo\n\n\n\n\n\n\nEn esta semana se espera que llegues a la clase habiendo leído antes el Capítulo 9 (Prueba de hipótesis), y haber contestado el Cuestionario del capítulo.\nEste tema es uno de los más importantes de todo el semestre, y de casi cualquier curso de estadística en licenciatura. Convendrá que le dediques un poco más de energía mental. También porque este tema incluye una acrobacia (o pirueta) intelectual un poco rara, pero que una vez entendiéndola, será muy fácil de identificar.\nUn video complementando la elaboración de hipótesis en una prueba de hipótesis nula: https://youtu.be/7DzcfS5IgCc Altamente recomendable revisarlo para ayudar a contestar la práctica de esta semana.\n\n\n\n\n\n\n\nRevisar status de Práctica 07 (no hay Práctica de tema 08).\nComenzar Práctica 09. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 09.\n\n\n\n\n\n\n\nStatQuest tiene una explicación paso a paso para comprender el valor p con ejemplos comparando medicamentos. YouTube.\nPara entender un poco mejor cómo varían los valores p específicamente en el contexto de la Prueba t de Student, esta visualización funcionará muy bien: RPsychologist.\nCrashCourse revisa cómo funcionan las pruebas de hipótesis: YouTube.\nCrashCourse tiene dos videos sobre los valores p. En el primero, puedes ver la aplicación a la prueba de hipótesis que se vio en este capítulo (YouTube), y en el segundo comenta sobre los problemas en el uso de los valores p (YouTube).\nOtras pruebas de hipótesis:\n\nProbabilidad de Contagio con Asistir a clases presenciales.\nLas vacunas disminuyen probabilidad de contagio.\nJugar futbol americano incrementa lesiones cerebrales. \n\nCrashCourse también comentó sobre la crisis de replicabilidad! (YouTube), y sobre p-hacking! (YouTube).\nEl canal de YouTube QuantPsych hace un repaso de la ética en la investigación: YouTube.\nUna excelente conferencia de Alexander Panchin en FutureBioTech, que creo que explica mejor el tema de la semana mejor que lo que hizo Poldrack, y mucho mejor que el video en Edpuzzle (¬¬): YouTube.\n¡¿Jelly beans verdes causan acné?! xkcd tiene la respuesta: xkcd.",
+    "crumbs": [
+      "Parcial 2",
+      "9️⃣ Prueba de hipótesis"
+    ]
   },
   {
     "objectID": "c09pruebahipotesis.html#clases",
     "href": "c09pruebahipotesis.html#clases",
     "title": "9️⃣ Prueba de hipótesis",
     "section": "",
-    "text": "Revisar status de Práctica 07 (no hay Práctica de tema 08).\nComenzar Práctica 09. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 09."
+    "text": "Revisar status de Práctica 07 (no hay Práctica de tema 08).\nComenzar Práctica 09. En equipos.\n\n\n\n\n\nContinuación y revisión de Práctica 09.",
+    "crumbs": [
+      "Parcial 2",
+      "9️⃣ Prueba de hipótesis"
+    ]
   },
   {
     "objectID": "c09pruebahipotesis.html#material-complementario",
     "href": "c09pruebahipotesis.html#material-complementario",
     "title": "9️⃣ Prueba de hipótesis",
     "section": "",
-    "text": "StatQuest tiene una explicación paso a paso para comprender el valor p con ejemplos comparando medicamentos. YouTube.\nPara entender un poco mejor cómo varían los valores p específicamente en el contexto de la Prueba t de Student, esta visualización funcionará muy bien: RPsychologist.\nCrashCourse revisa cómo funcionan las pruebas de hipótesis: YouTube.\nCrashCourse tiene dos videos sobre los valores p. En el primero, puedes ver la aplicación a la prueba de hipótesis que se vio en este capítulo (YouTube), y en el segundo comenta sobre los problemas en el uso de los valores p (YouTube).\nOtras pruebas de hipótesis:\n\nProbabilidad de Contagio con Asistir a clases presenciales.\nLas vacunas disminuyen probabilidad de contagio.\nJugar futbol americano incrementa lesiones cerebrales. \n\nCrashCourse también comentó sobre la crisis de replicabilidad! (YouTube), y sobre p-hacking! (YouTube).\nEl canal de YouTube QuantPsych hace un repaso de la ética en la investigación: YouTube.\nUna excelente conferencia de Alexander Panchin en FutureBioTech, que creo que explica mejor el tema de la semana mejor que lo que hizo Poldrack, y mucho mejor que el video en Edpuzzle (¬¬): YouTube.\n¡¿Jelly beans verdes causan acné?! xkcd tiene la respuesta: xkcd."
+    "text": "StatQuest tiene una explicación paso a paso para comprender el valor p con ejemplos comparando medicamentos. YouTube.\nPara entender un poco mejor cómo varían los valores p específicamente en el contexto de la Prueba t de Student, esta visualización funcionará muy bien: RPsychologist.\nCrashCourse revisa cómo funcionan las pruebas de hipótesis: YouTube.\nCrashCourse tiene dos videos sobre los valores p. En el primero, puedes ver la aplicación a la prueba de hipótesis que se vio en este capítulo (YouTube), y en el segundo comenta sobre los problemas en el uso de los valores p (YouTube).\nOtras pruebas de hipótesis:\n\nProbabilidad de Contagio con Asistir a clases presenciales.\nLas vacunas disminuyen probabilidad de contagio.\nJugar futbol americano incrementa lesiones cerebrales. \n\nCrashCourse también comentó sobre la crisis de replicabilidad! (YouTube), y sobre p-hacking! (YouTube).\nEl canal de YouTube QuantPsych hace un repaso de la ética en la investigación: YouTube.\nUna excelente conferencia de Alexander Panchin en FutureBioTech, que creo que explica mejor el tema de la semana mejor que lo que hizo Poldrack, y mucho mejor que el video en Edpuzzle (¬¬): YouTube.\n¡¿Jelly beans verdes causan acné?! xkcd tiene la respuesta: xkcd.",
+    "crumbs": [
+      "Parcial 2",
+      "9️⃣ Prueba de hipótesis"
+    ]
   },
   {
     "objectID": "c12categoricas.html",
